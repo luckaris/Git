@@ -19,9 +19,15 @@ git status - mostra informacoes sobre o estado atual do repositorio
 
 git log - mostra as alteracoes q o repositorio vem sofrendo
 
-git branch - cria um novo ramo do codigo q te permite modificar o codigo sem afetar o codigo principal
+git branch - serve para visualizar a listagem de tds as branchs criadas no repositorio local
 
-//pode estar errado//git branch - serve para visualizar a listagem de tds as branchs criadas no repositorio local
+git checkout <<nome da branch>> - troca para a branch desejada ( os simbolos "<<" e ">>" nao devem ser digitados)
+
+git branch <<nome da branch>> - cria um novo ramo do codigo q te permite modificar o codigo sem afetar o codigo principal mas continua na branch principal ( os simbolos "<<" e ">>" nao devem ser digitados)
+
+git branch checkout -b <<nome da branch>> - cria um novo ramo do codigo da msm forma q o git branch e muda para essa branch
+
+git branch -D <<nome da branch>> - apaga a branch ( os simbolos "<<" e ">>" nao devem ser digitados)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -37,6 +43,8 @@ mkdir nome diretorio - cria diretorio
 
 md nome nome - cria mais de um diretorio
 
+git ini - inicializa o git (controle de versao naquele repositorio)
+
 git config --global user.email "you@example.com" (Seu e-mail claro)
 
 git config --global user.name "Your Name" (Seu nome)
@@ -44,5 +52,14 @@ git config --global user.name "Your Name" (Seu nome)
 copy con nome do arquivo.tipo do arquivo - cria um arquivo
 ctrl Z (apertar as teclas) - finaliza o arquivo
 
+git commit -m "first commit" - comando para commitar
+
+git remote add origin <<link do diretorio>> - adiciona um diretorio remoto para fazer o push( os simbolos "<<" e ">>" nao devem ser digitados)
+
+git push -u origin master - comando para fazer push para o diretorio( a priemeira vez)
+
+git push - comando para armazenar alteracoes no repositorio remoto
+
+git remote rm origin - remove o repositorio remoto
 
 
