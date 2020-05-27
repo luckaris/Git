@@ -1,0 +1,47 @@
+comandos git:
+
+git init - inicializar o controle de versao em um repositorio local
+
+git clone - copiar o arquivo de um repositorio remoto
+
+git add - adicionar tds os arquivos ou um arquivo especifico a lista do arquivos aptos ao commit
+
+git commit -m "mensagem de commit" (windows) - salva as alteracoes em formato de commit e as torna rastreaveis  
+              'mensagem de commit' (linux)
+
+git push - armazenar as alteracoes em um repositorio remoto
+
+git pull - atualiza o repositorio local de acordo com o repositorio remoto
+
+git merge - juntar branchs diferentes
+
+git status - mostra informacoes sobre o estado atual do repositorio
+
+git log - mostra as alteracoes q o repositorio vem sofrendo
+
+git branch - cria um novo ramo do codigo q te permite modificar o codigo sem afetar o codigo principal
+
+//pode estar errado//git branch - serve para visualizar a listagem de tds as branchs criadas no repositorio local
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+windows commands:
+
+dir - visualizar os conteudos de um diretorio
+
+cd Nome do diretorio - avanca um nivel no dieretorio desejado
+
+cd.. - retorna ao diretorio anterior
+
+mkdir nome diretorio - cria diretorio
+
+md nome nome - cria mais de um diretorio
+
+git config --global user.email "you@example.com" (Seu e-mail claro)
+
+git config --global user.name "Your Name" (Seu nome)
+
+copy con nome do arquivo.tipo do arquivo - cria um arquivo
+ctrl Z (apertar as teclas) - finaliza o arquivo
+
+
