@@ -19,6 +19,12 @@ git status - mostra informacoes sobre o estado atual do repositorio
 
 git log - mostra as alteracoes q o repositorio vem sofrendo
 
+git touch nome do arquvi.tipo do arquivo - cria um arquivo com o nome e tipo especificado no diretorio (Linux)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Comandos Branch:
+
 git branch - serve para visualizar a listagem de tds as branchs criadas no repositorio local
 
 git checkout <<nome da branch>> - troca para a branch desejada ( os simbolos "<<" e ">>" nao devem ser digitados)
@@ -36,9 +42,12 @@ git reset --soft HEAD~1 - retorna o repositorio  para o estado anterior ao ultim
 
 git push (e oustras variacoes) --force-with-lease - forca o repositorio a clonar o repositorio local, msm q ele esteja em uma versao anterior 
 
+git push origin <<nome da branch>> - adiciona a branch no repositorio remoto ( os simbolos "<<" e ">>" nao devem ser digitados)
+(primeira vez qnd adicionar a branch)
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
-windows commands:
+Comandos gerais:
 
 dir - visualizar os conteudos de um diretorio
 
@@ -59,8 +68,6 @@ git config --global user.name "Your Name" (Seu nome)
 copy con nome do arquivo.tipo do arquivo - cria um arquivo
 ctrl Z (apertar as teclas) - finaliza o arquivo
 
-git touch nome do arquvi.tipo do arquivo - cria um arquivo com o nome e tipo especificado no diretorio (Linux)
-
 git commit -m "first commit" - comando para commitar
 
 git remote add origin <<link do diretorio>> - adiciona um diretorio remoto para fazer o push( os simbolos "<<" e ">>" nao devem ser digitados)
@@ -74,4 +81,7 @@ git remote rm origin - remove o repositorio remoto
 git push origin <<nome da branch>> - adiciona a branch no repositorio remoto ( os simbolos "<<" e ">>" nao devem ser digitados)
 (primeira vez qnd adicionar a branch)
 
+git reset --soft HEAD~1 - retorna o repositorio  para o estado anterior ao ultimo commit
+
+git push (e oustras variacoes) --force-with-lease - forca o repositorio a clonar o repositorio local, msm q ele esteja em uma versao anterior 
 
