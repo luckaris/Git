@@ -45,3 +45,4 @@ copy con nome do arquivo.tipo do arquivo - cria um arquivo
 ctrl Z (apertar as teclas) - finaliza o arquivo
 
 
+
