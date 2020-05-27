@@ -4,7 +4,7 @@ git init - inicializar o controle de versao em um repositorio local
 
 git clone - copiar o arquivo de um repositorio remoto
 
-git add - adicionar tds os arquivos ou um arquivo especifico a lista do arquivos aptos ao commit
+git add . - adicionar tds os arquivos ou um arquivo especifico a lista do arquivos aptos ao commit
 
 git commit -m "mensagem de commit" (windows) - salva as alteracoes em formato de commit e as torna rastreaveis  
               'mensagem de commit' (linux)
@@ -30,6 +30,11 @@ git branch checkout -b <<nome da branch>> - cria um novo ramo do codigo da msm f
 git branch -D <<nome da branch>> - apaga a branch ( os simbolos "<<" e ">>" nao devem ser digitados)
 
 git push origin <<nome da branch>> - adiciona a branch no repositorio remoto ( os simbolos "<<" e ">>" nao devem ser digitados)
+(primeira vez qnd adicionar a branch)
+
+git reset --soft HEAD~1 - retorna o repositorio  para o estado anterior ao ultimo commit
+
+git push (e oustras variacoes) --force-with-lease - forca o repositorio a clonar o repositorio local, msm q ele esteja em uma versao anterior 
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -41,7 +46,7 @@ cd Nome do diretorio - avanca um nivel no dieretorio desejado
 
 cd.. - retorna ao diretorio anterior
 
-mkdir nome diretorio - cria diretorio
+mkdir nome diretorio - cria diretorios
 
 md nome nome - cria mais de um diretorio
 
@@ -54,6 +59,8 @@ git config --global user.name "Your Name" (Seu nome)
 copy con nome do arquivo.tipo do arquivo - cria um arquivo
 ctrl Z (apertar as teclas) - finaliza o arquivo
 
+git touch nome do arquvi.tipo do arquivo - cria um arquivo com o nome e tipo especificado no diretorio (Linux)
+
 git commit -m "first commit" - comando para commitar
 
 git remote add origin <<link do diretorio>> - adiciona um diretorio remoto para fazer o push( os simbolos "<<" e ">>" nao devem ser digitados)
@@ -65,6 +72,6 @@ git push - comando para armazenar alteracoes no repositorio remoto
 git remote rm origin - remove o repositorio remoto
 
 git push origin <<nome da branch>> - adiciona a branch no repositorio remoto ( os simbolos "<<" e ">>" nao devem ser digitados)
-
+(primeira vez qnd adicionar a branch)
 
 
