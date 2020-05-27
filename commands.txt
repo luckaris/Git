@@ -29,6 +29,8 @@ git branch checkout -b <<nome da branch>> - cria um novo ramo do codigo da msm f
 
 git branch -D <<nome da branch>> - apaga a branch ( os simbolos "<<" e ">>" nao devem ser digitados)
 
+git push origin <<nome da branch>> - adiciona a branch no repositorio remoto ( os simbolos "<<" e ">>" nao devem ser digitados)
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 windows commands:
@@ -61,5 +63,8 @@ git push -u origin master - comando para fazer push para o diretorio( a priemeir
 git push - comando para armazenar alteracoes no repositorio remoto
 
 git remote rm origin - remove o repositorio remoto
+
+git push origin <<nome da branch>> - adiciona a branch no repositorio remoto ( os simbolos "<<" e ">>" nao devem ser digitados)
+
 
 
